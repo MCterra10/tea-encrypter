@@ -1,9 +1,15 @@
 #!/usr/bin/as3shebang
 
 import shell.Program;
+import flash.system.System;
 
-trace("TEA Encryption as implemented by Arkadium");
-trace("Code extracted and edited by Terra");
+if(Program.argv[0] == "--help") {
+	trace("TEA Encryption as implemented by Arkadium");
+	trace("Code extracted and edited by Terra");
+	trace("Usage:");
+	trace("teadecrypt <key> <data>");
+	System.exit(0);
+}
 
 public class TEAEncryption
    {
