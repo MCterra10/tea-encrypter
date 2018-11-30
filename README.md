@@ -24,7 +24,7 @@ for 32bit
 
 Now run
 
-`git clone https://gitlab.com/mcterra/tea-encrypter && cd tea-encrypter`
+`git clone https://github.com/mcterra10/tea-encrypter && cd tea-encrypter`
 
 (optional) if you want to run the tools without specifying the whole path, run
 
