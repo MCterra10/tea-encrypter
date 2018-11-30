@@ -24,11 +24,7 @@ for 32bit
 
 Now run
 
-`git clone https://github.com/mcterra10/tea-encrypter && cd tea-encrypter`
-
-(optional) if you want to run the tools without specifying the whole path, run
-
-`sudo cp ./teaencrypt /usr/bin && sudo cp ./teadecrypt /usr/bin`
+`wget https://github.com/MCterra10/tea-encrypter/releases/download/v1.0-1/tea-encrypt.deb && sudo dpkg -i tea-decrypt.deb`
 
 ## Usage
 
